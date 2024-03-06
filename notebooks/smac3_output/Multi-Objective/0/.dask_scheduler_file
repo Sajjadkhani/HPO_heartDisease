@@ -1,0 +1,776 @@
+{
+  "type": "Scheduler",
+  "id": "Scheduler-7cdd3645-0599-464e-82ec-0e64f944b8b6",
+  "address": "tcp://127.0.0.1:38549",
+  "services": {
+    "dashboard": 8787
+  },
+  "started": 1709728398.731747,
+  "workers": {
+    "tcp://127.0.0.1:33287": {
+      "type": "Worker",
+      "id": 12,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-qkhp0fse",
+      "name": 12,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8620274,
+      "services": {
+        "dashboard": 42959
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 60989440,
+        "time": 1709728399.5354123,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:35939"
+    },
+    "tcp://127.0.0.1:33389": {
+      "type": "Worker",
+      "id": 1,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-_4kags45",
+      "name": 1,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.888497,
+      "services": {
+        "dashboard": 45527
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61337600,
+        "time": 1709728399.4700882,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 5865719.981943667
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:39355"
+    },
+    "tcp://127.0.0.1:33547": {
+      "type": "Worker",
+      "id": 5,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-worlox0a",
+      "name": 5,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8254135,
+      "services": {
+        "dashboard": 46109
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61280256,
+        "time": 1709728399.494752,
+        "host_net_io": {
+          "read_bps": 261581.88192239878,
+          "write_bps": 261581.88192239878
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:40717"
+    },
+    "tcp://127.0.0.1:34035": {
+      "type": "Worker",
+      "id": 11,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-52y6zupu",
+      "name": 11,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.899104,
+      "services": {
+        "dashboard": 43249
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61243392,
+        "time": 1709728399.5533168,
+        "host_net_io": {
+          "read_bps": 426935.27948308276,
+          "write_bps": 426935.27948308276
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:45219"
+    },
+    "tcp://127.0.0.1:34273": {
+      "type": "Worker",
+      "id": 0,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-v1f7czk4",
+      "name": 0,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.796628,
+      "services": {
+        "dashboard": 37057
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61190144,
+        "time": 1709728399.5286882,
+        "host_net_io": {
+          "read_bps": 390705.48301726836,
+          "write_bps": 390705.48301726836
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:36639"
+    },
+    "tcp://127.0.0.1:34437": {
+      "type": "Worker",
+      "id": 14,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-veyrmfnk",
+      "name": 14,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8786142,
+      "services": {
+        "dashboard": 34865
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61243392,
+        "time": 1709728399.5496438,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:40247"
+    },
+    "tcp://127.0.0.1:35693": {
+      "type": "Worker",
+      "id": 10,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-o3m70nfy",
+      "name": 10,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8846476,
+      "services": {
+        "dashboard": 38373
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61321216,
+        "time": 1709728399.5341225,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:37595"
+    },
+    "tcp://127.0.0.1:36927": {
+      "type": "Worker",
+      "id": 13,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-g2axy7pb",
+      "name": 13,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8445091,
+      "services": {
+        "dashboard": 37753
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61104128,
+        "time": 1709728399.5504167,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:43181"
+    },
+    "tcp://127.0.0.1:37737": {
+      "type": "Worker",
+      "id": 3,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-cqlympyl",
+      "name": 3,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.8657334,
+      "services": {
+        "dashboard": 42175
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61210624,
+        "time": 1709728399.4875567,
+        "host_net_io": {
+          "read_bps": 212126.2600119154,
+          "write_bps": 212126.2600119154
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:36123"
+    },
+    "tcp://127.0.0.1:37879": {
+      "type": "Worker",
+      "id": 8,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-z7hx2yzz",
+      "name": 8,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.9053526,
+      "services": {
+        "dashboard": 45493
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61382656,
+        "time": 1709728399.5527413,
+        "host_net_io": {
+          "read_bps": 270346.11400656507,
+          "write_bps": 270346.11400656507
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:40263"
+    },
+    "tcp://127.0.0.1:37969": {
+      "type": "Worker",
+      "id": 6,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-in63832e",
+      "name": 6,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.7713516,
+      "services": {
+        "dashboard": 43025
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61038592,
+        "time": 1709728399.4910448,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:43991"
+    },
+    "tcp://127.0.0.1:39951": {
+      "type": "Worker",
+      "id": 4,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-yaz_vqs7",
+      "name": 4,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.7401218,
+      "services": {
+        "dashboard": 41199
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61222912,
+        "time": 1709728399.405566,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:45129"
+    },
+    "tcp://127.0.0.1:41939": {
+      "type": "Worker",
+      "id": 7,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-t2i0dc2m",
+      "name": 7,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.880715,
+      "services": {
+        "dashboard": 41113
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61329408,
+        "time": 1709728399.5069182,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:43069"
+    },
+    "tcp://127.0.0.1:44247": {
+      "type": "Worker",
+      "id": 2,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-txl5anae",
+      "name": 2,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.824395,
+      "services": {
+        "dashboard": 41149
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61308928,
+        "time": 1709728399.4798672,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:39489"
+    },
+    "tcp://127.0.0.1:44385": {
+      "type": "Worker",
+      "id": 9,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "/home/skhani/Documents/Recent/PV/AutoML/exam/Heart_Disease/notebooks/smac3_output/Multi-Objective/0/dask-scratch-space/worker-noucn54o",
+      "name": 9,
+      "nthreads": 1,
+      "memory_limit": 8949443788,
+      "last_seen": 1709728399.854392,
+      "services": {
+        "dashboard": 37385
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 61435904,
+        "time": 1709728399.5216432,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "num_fds": 18
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:37917"
+    }
+  }
+}
